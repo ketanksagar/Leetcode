@@ -21,6 +21,7 @@ WITH t1 AS (
     GROUP BY 
         submission_date, hackers.hacker_id, name
 ),
+  
 t2 AS (
     SELECT 
         dat,
